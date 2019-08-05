@@ -142,8 +142,11 @@
     <ClCompile Include="2016년.cpp" />
     <ClCompile Include="K번째수.cpp" />
     <ClCompile Include="가운데글자.cpp" />
+    <ClCompile Include="같은 숫자는 싫어.cpp" />
+    <ClCompile Include="두 정수 사이의 합.cpp" />
     <ClCompile Include="메인.cpp" />
     <ClCompile Include="모의고사.cpp" />
+    <ClCompile Include="문자열 내림차순 정렬.cpp" />
     <ClCompile Include="문자열정수변환.cpp" />
     <ClCompile Include="소수의합.cpp" />
     <ClCompile Include="소수찾기.cpp" />
