@@ -13,43 +13,61 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\level2">
+      <UniqueIdentifier>{945a8230-5e1d-487b-96c0-9353bebfa203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\level1">
+      <UniqueIdentifier>{085daa4c-3a8e-4ffd-bcfd-1b6ff2ad7a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\stack/queue">
+      <UniqueIdentifier>{3dd0987e-4def-4243-b10b-0aedc54bcf95}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="소수의합.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="메인.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="모의고사.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="K번째수.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="기능개발.cpp">
+      <Filter>소스 파일\level2</Filter>
     </ClCompile>
     <ClCompile Include="2016년.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\level1</Filter>
+    </ClCompile>
+    <ClCompile Include="K번째수.cpp">
+      <Filter>소스 파일\level1</Filter>
     </ClCompile>
     <ClCompile Include="가운데글자.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="특정문자열갯수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="소수찾기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="문자열정수변환.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\level1</Filter>
     </ClCompile>
     <ClCompile Include="같은 숫자는 싫어.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\level1</Filter>
     </ClCompile>
     <ClCompile Include="두 정수 사이의 합.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\level1</Filter>
+    </ClCompile>
+    <ClCompile Include="메인.cpp">
+      <Filter>소스 파일\level1</Filter>
+    </ClCompile>
+    <ClCompile Include="모의고사.cpp">
+      <Filter>소스 파일\level1</Filter>
     </ClCompile>
     <ClCompile Include="문자열 내림차순 정렬.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\level1</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열기본.cpp">
+      <Filter>소스 파일\level1</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열정수변환.cpp">
+      <Filter>소스 파일\level1</Filter>
+    </ClCompile>
+    <ClCompile Include="소수의합.cpp">
+      <Filter>소스 파일\level1</Filter>
+    </ClCompile>
+    <ClCompile Include="소수찾기.cpp">
+      <Filter>소스 파일\level1</Filter>
+    </ClCompile>
+    <ClCompile Include="특정문자열갯수.cpp">
+      <Filter>소스 파일\level1</Filter>
+    </ClCompile>
+    <ClCompile Include="평균구하기.cpp">
+      <Filter>소스 파일\level1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
