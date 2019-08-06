@@ -69,5 +69,20 @@
     <ClCompile Include="평균구하기.cpp">
       <Filter>소스 파일\level1</Filter>
     </ClCompile>
+    <ClCompile Include="탑.cpp">
+      <Filter>소스 파일\stack/queue</Filter>
+    </ClCompile>
+    <ClCompile Include="다리를 지나는 트럭.cpp">
+      <Filter>소스 파일\stack/queue</Filter>
+    </ClCompile>
+    <ClCompile Include="프린터.cpp">
+      <Filter>소스 파일\stack/queue</Filter>
+    </ClCompile>
+    <ClCompile Include="쇠막대기.cpp">
+      <Filter>소스 파일\stack/queue</Filter>
+    </ClCompile>
+    <ClCompile Include="주식가격(다시풀어볼것).cpp">
+      <Filter>소스 파일\stack/queue</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
