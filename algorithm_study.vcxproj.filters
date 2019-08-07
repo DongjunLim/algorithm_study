@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\stack/queue">
       <UniqueIdentifier>{3dd0987e-4def-4243-b10b-0aedc54bcf95}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\DP">
+      <UniqueIdentifier>{143f6e67-40a9-447e-9981-12cb65c388ba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기능개발.cpp">
@@ -83,6 +86,15 @@
     </ClCompile>
     <ClCompile Include="주식가격(다시풀어볼것).cpp">
       <Filter>소스 파일\stack/queue</Filter>
+    </ClCompile>
+    <ClCompile Include="타일장식물%28level3%29.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="2 x N 타일링.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="정수삼각형.cpp">
+      <Filter>소스 파일\DP</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
