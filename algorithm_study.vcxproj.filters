@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\DP">
       <UniqueIdentifier>{143f6e67-40a9-447e-9981-12cb65c388ba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\greedy">
+      <UniqueIdentifier>{330a842f-09d0-4502-ac72-5b41bfe120d6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기능개발.cpp">
@@ -95,6 +98,18 @@
     </ClCompile>
     <ClCompile Include="정수삼각형.cpp">
       <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="큰수 만들기.cpp">
+      <Filter>소스 파일\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="체육복.cpp">
+      <Filter>소스 파일\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="소수찾기(순열).cpp">
+      <Filter>소스 파일\level2</Filter>
+    </ClCompile>
+    <ClCompile Include="소수찾기(다시풀어볼것).cpp">
+      <Filter>소스 파일\level2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

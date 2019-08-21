@@ -153,10 +153,14 @@
     <ClCompile Include="문자열기본.cpp" />
     <ClCompile Include="문자열정수변환.cpp" />
     <ClCompile Include="소수의합.cpp" />
+    <ClCompile Include="소수찾기(다시풀어볼것).cpp" />
+    <ClCompile Include="소수찾기(순열).cpp" />
     <ClCompile Include="소수찾기.cpp" />
     <ClCompile Include="쇠막대기.cpp" />
     <ClCompile Include="정수삼각형.cpp" />
     <ClCompile Include="주식가격(다시풀어볼것).cpp" />
+    <ClCompile Include="체육복.cpp" />
+    <ClCompile Include="큰수 만들기.cpp" />
     <ClCompile Include="타일장식물%28level3%29.cpp" />
     <ClCompile Include="탑.cpp" />
     <ClCompile Include="특정문자열갯수.cpp" />
