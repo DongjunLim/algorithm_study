@@ -27,7 +27,7 @@ gameMap = [
     [2, 5, 2, 9, 4, 3, 0],
 ]
 
-#반복동적계획법
+#반복동적계획
 def solution(n):
     goal = len(n)-1
     cache[goal][goal] = True
