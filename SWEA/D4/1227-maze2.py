@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("input.txt", "r")
+sys.stdin = open("../D4/input.txt", "r")
 
 class Node:
     def __init__(self, data):
