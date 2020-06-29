@@ -29,7 +29,7 @@ for tc in range(1,T+1):
     ''' 시작 정점 방문 처리. '''
     visited[0] = True
 
-    ''' 연결이 끊길때까지 반복.'''
+    ''' 연결이 끊길때까지 반복. '''
     while queue != []:
         nowEdge = heapq.heappop(queue)
         nowWeight = nowEdge[0]
