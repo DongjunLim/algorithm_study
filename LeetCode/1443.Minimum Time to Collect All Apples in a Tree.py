@@ -1,9 +1,13 @@
+from collections import defaultdict
+
+
 def set_adj_list(n, edges):
 
     adj_list = [[] for _ in range(n)]
 
     for u, v in edges:
         adj_list[u].append(v)
+        adj_list[v].append(u)
 
     return adj_list
 
@@ -17,7 +21,6 @@ def dfs(now, moveCnt, adj_list, visited, hasApple):
         if hasApple[now]:
             return nowCnt
         return nowCnt - 2
-
 
     for next in adj_list[now]:
         if not visited[next]:
@@ -79,6 +82,12 @@ def main():
     n = 6
     edges = [[0, 1], [0, 2], [1, 3], [3, 4], [4, 5]]
     hasApple = [False, True, False, False, True, True]
+
+    print(solution(n, edges, hasApple))
+
+    n = 4
+    edges = [[0, 2], [0, 3], [1, 2]]
+    hasApple = [False, True, False, False]
 
     print(solution(n, edges, hasApple))
 
