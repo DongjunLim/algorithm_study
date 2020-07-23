@@ -9,11 +9,13 @@ def solution(target, numbers):
     global INF
     usable = []
     dp = [INF] * (target + 10)
+    visited = [False] * (target + 10)
 
     for i, x in enumerate(numbers):
         if x:
             usable.append(i)
             dp[i] = 2
+            visited[i] = True
 
     for i in range(target+1):
         for num in usable:

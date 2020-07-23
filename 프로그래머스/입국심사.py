@@ -1,5 +1,5 @@
 def solution(n, times):
-    answer = 1000000000
+    answer = 1000000000 ** 2
     left = 1
     right = 1000000000 ** 2
 
@@ -11,7 +11,7 @@ def solution(n, times):
 
         if n <= s:
             right = mid - 1
-            answer = min(answer, mid)
+            answer = mid
         else:
             left = mid + 1
 
@@ -22,3 +22,4 @@ n = 6
 time = [7, 10]
 
 print(solution(n, time))
+
